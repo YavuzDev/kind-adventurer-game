@@ -5,9 +5,9 @@ body {
 @font-face {
     font-family: Pixel-Art;
     src: url(pixelart.eot);
-    src: url(pixelart.ttf) format("truetype"),
-    url(pixelart.woff) format("woff"),
-    url(pixelart.woff2) format("woff2");
+    src: url(pixelart.woff) format("woff"),
+    url(pixelart.woff2) format("woff2"),
+    url(pixelart.ttf) format("truetype");
 }
 
 .main-div {
