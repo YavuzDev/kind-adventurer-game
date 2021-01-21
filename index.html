@@ -9,10 +9,10 @@
 <div>
     <div class="main-div">
         <p class="title-text">Kind Adventurer</p>
-        <img class="main-image" src="Main.jpg" alt="Main image">
+<!--        <img class="main-image" src="Main.jpg" alt="Main image">-->
         <p class="available-now-text">Available Now!</p>
-        <button class="download-windows-button"> <img class="windows-icon" src="Windows-Icon.png" alt="Windows Icon">Windows</button>
-        <button class="download-android-button"> <img class="android-icon" src="Android-Icon.png" alt="Android Icon">Android</button>
+        <a href="https://github.com/YavuzDev/kind-adventurer-game/releases/download/1.0/Kind.Adventurer.zip" class="download-windows-button"> <img class="windows-icon" src="Windows-Icon.png" alt="Windows Icon">Windows</a>
+        <a href="https://github.com/YavuzDev/kind-adventurer-game/releases/download/1.0/Kind.Adventurer.apk" class="download-android-button"> <img class="android-icon" src="Android-Icon.png" alt="Android Icon">Android</a>
 
     </div>
     <div class="main-background">
@@ -44,8 +44,21 @@
                 <img class="gif" src="Player%20Customization.gif" alt="Player customization">
                 <p class="gif-description">Customize your character!</p>
             </div>
+            <div style="width: 100%; display: flex; justify-content: center;" onclick="scrollToTop()">
+                <button class="download-now-button">Download Now!</button>
+            </div>
+        </div>
+        <div class="second-line"></div>
+        <div class="progress-content">
+            <p class="progress-title">Progress</p>
         </div>
     </div>
 </div>
+
+<script>
+    function scrollToTop() {
+        window.scrollTo(0, 0)
+    }
+</script>
 </body>
 </html>
