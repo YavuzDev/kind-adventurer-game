@@ -44,8 +44,8 @@
                 <img class="gif" src="Player%20Customization.gif" alt="Player customization">
                 <p class="gif-description">Customize your character!</p>
             </div>
-            <div style="width: 100%; display: flex; justify-content: center;" onclick="scrollToTop()">
-                <button class="download-now-button">Download Now!</button>
+            <div style="width: 100%; display: flex; justify-content: center;">
+                <button class="download-now-button" onclick="scrollToTop()">Download Now!</button>
             </div>
         </div>
         <div class="second-line"></div>
@@ -57,8 +57,13 @@
 
 <script>
     function scrollToTop() {
-        window.scrollTo(0, 0)
+        window.scroll({
+            behavior: 'smooth',
+            left: 0,
+            top: 0
+        })
     }
+
 </script>
 </body>
 </html>
