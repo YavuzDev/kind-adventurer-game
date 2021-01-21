@@ -9,6 +9,7 @@ body {
 
 .main-div {
     position: relative;
+    background: black;
 }
 
 .title-text {
@@ -92,4 +93,63 @@ body {
     width: 58px;
     padding-left: 20px;
     padding-right: 10px;
+}
+
+.main-background {
+    background: black;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 3% 0 10%;
+    justify-content: space-between;
+}
+
+.description-text {
+    color: white;
+    text-align: center;
+    word-wrap: break-word;
+    max-width: 50%;
+    font-size: 32px;
+    font-family: Pixel-Art, serif;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.line {
+    width: 100%;
+    height: 2px;
+    background: #d5d1d147;
+    margin-bottom: 24px;
+}
+
+.main-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.gif-container {
+    align-items: center;
+    padding-left: 24px;
+    width: 846px;
+    height: 515px;
+    padding-bottom: 180px;
+}
+
+.gif {
+    border-radius: 55px;
+    width: 846px;
+    height: 515px;
+}
+
+.gif-description {
+    color: white;
+    text-align: center;
+    word-wrap: break-word;
+    max-width: 50%;
+    font-size: 32px;
+    font-family: Pixel-Art, serif;
+    margin-left: 200px;
 }
