@@ -68,10 +68,6 @@ body {
     background: rgba(196, 35, 35, 191);
 }
 
-.download-windows-button:focus {
-    background: black;
-}
-
 .windows-icon {
     height: 36px;
     width: 61px;
@@ -100,10 +96,6 @@ body {
 
 .download-android-button:hover {
     background: rgba(196, 35, 35, 191);
-}
-
-.download-android-button:focus {
-    background: black;
 }
 
 .android-icon {
@@ -186,10 +178,6 @@ body {
 
 .download-now-button:hover {
     background: rgba(196, 35, 35, 191);
-}
-
-.download-now-button:focus {
-    background: black;
 }
 
 .download-now-button:active {
