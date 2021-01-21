@@ -4,7 +4,10 @@ body {
 
 @font-face {
     font-family: Pixel-Art;
-    src: url(pixelart.ttf) format("ttf");
+    src: url(pixelart.eot);
+    src: url(pixelart.ttf) format("truetype"),
+    url(pixelart.woff) format("woff"),
+    url(pixelart.woff2) format("woff2");
 }
 
 .main-div {
