@@ -68,6 +68,10 @@ body {
     background: rgba(196, 35, 35, 191);
 }
 
+.download-windows-button:focus {
+    background: black;
+}
+
 .windows-icon {
     height: 36px;
     width: 61px;
@@ -98,6 +102,10 @@ body {
     background: rgba(196, 35, 35, 191);
 }
 
+.download-android-button:focus {
+    background: black;
+}
+
 .android-icon {
     height: 58px;
     width: 58px;
@@ -119,7 +127,7 @@ body {
     color: white;
     text-align: center;
     word-wrap: break-word;
-    max-width: 50%;
+    max-width: 70%;
     font-size: 32px;
     font-family: Pixel-Art, serif;
     margin-left: auto;
@@ -178,6 +186,10 @@ body {
 
 .download-now-button:hover {
     background: rgba(196, 35, 35, 191);
+}
+
+.download-now-button:focus {
+    background: black;
 }
 
 .download-now-button:active {
