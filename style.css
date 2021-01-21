@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+}
+
+@font-face {
+    font-family: Pixel-Art;
+    src: url(pixelart.ttf);
+}
+
+.main-div {
+    position: relative;
+}
+
+.title-text {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 84px;
+    font-family: Pixel-Art, serif;
+}
+
+.main-image {
+    width: 100%;
+    height: 100vh;
+}
+
+.available-now-text {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 32px;
+    font-family: Pixel-Art, serif;
+}
+
+.download-windows-button {
+    position: absolute;
+    top: 85%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    background: black;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 24px;
+    font-family: Pixel-Art, serif;
+    color: white;
+    width: 282px;
+    height: 69px;
+    text-align: left;
+}
+
+.download-windows-button:hover {
+    background: rgba(196, 35, 35, 191);
+}
+
+.windows-icon {
+    height: 36px;
+    width: 61px;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+.download-android-button {
+    position: absolute;
+    top: 85%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    background: black;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 24px;
+    font-family: Pixel-Art, serif;
+    color: white;
+    width: 282px;
+    height: 69px;
+    text-align: left;
+}
+
+.download-android-button:hover {
+    background: rgba(196, 35, 35, 191);
+}
+
+.android-icon {
+    height: 58px;
+    width: 58px;
+    padding-left: 20px;
+    padding-right: 10px;
+}
