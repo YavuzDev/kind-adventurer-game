@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body onresize="windowsResize()">
 <div>
     <div class="main-div">
         <p class="title-text">Kind Adventurer</p>
@@ -92,12 +92,51 @@
 </div>
 
 <script>
+    setImageSizes()
+
+    function setImageSizes() {
+        var elementsSecond = document.getElementsByClassName("progress-item-second-image");
+        var elementsFirst = document.getElementsByClassName("progress-item-first-image");
+
+        for (var j = 0; j < elementsFirst.length; j++) {
+            elementsFirst[j].style.width = getCorrectWidth();
+            elementsFirst[j].style.height = getCorrectHeight();
+        }
+
+        for (var i = 0; i < elementsSecond.length; i++) {
+            elementsSecond[i].style.width = getCorrectWidth();
+            elementsSecond[i].style.height = getCorrectHeight();
+        }
+    }
+
+    function getCorrectWidth() {
+        var width = window.innerWidth;
+        var correctWidth = width / 2 - 100;
+        if (correctWidth > 800) {
+            return "800px"
+        }
+        return correctWidth.toString() + "px";
+    }
+
+    function getCorrectHeight() {
+        var height = window.innerHeight;
+        var correctHeight = height / 2 - 100;
+        if (correctHeight > 800) {
+            return "800px"
+        }
+        return correctHeight.toString() + "px";
+    }
+
     function scrollToTop() {
         window.scroll({
             behavior: 'smooth',
             left: 0,
             top: 0
         })
+    }
+
+    function windowsResize() {
+        setImageSizes()
     }
 
 </script>
