@@ -185,6 +185,7 @@ body {
 
 .download-now-button:hover {
     background: rgba(196, 35, 35, 191);
+    cursor: pointer;
 }
 
 .download-now-button:active {
