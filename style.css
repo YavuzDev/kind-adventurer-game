@@ -225,6 +225,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: start;
+    padding-left: 5%;
 }
 
 .progress-item-text {
@@ -232,6 +233,7 @@ body {
     text-align: center;
     font-size: 36px;
     font-family: Pixel-Art, serif;
+    padding-left: 24px;
 }
 
 .progress-item-images {
@@ -268,7 +270,7 @@ body {
     text-align: center;
     font-size: 32px;
     font-family: Pixel-Art, serif;
-    max-width: 70%;
+    max-width: 80%;
     margin-left: auto;
     margin-right: auto;
 }
