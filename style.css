@@ -12,29 +12,27 @@ body {
 
 .main-div {
     background-size: cover;
-    position: relative;
     background: black url("Main.jpg") no-repeat fixed center;
     background-size: cover;
     width: 100%;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .title-text {
-    position: absolute;
-    top: 5%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     color: white;
     font-size: 84px;
     font-family: Pixel-Art, serif;
     text-align: center;
+    line-height: 1px;
+    margin-top: -50px;
 }
 
 .youtube-video {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .main-image {
@@ -43,21 +41,24 @@ body {
 }
 
 .available-now-text {
-    position: absolute;
-    top: 75%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    margin-right: auto;
+    margin-left: auto;
     color: white;
     font-size: 32px;
     font-family: Pixel-Art, serif;
 }
 
+.main-buttons {
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-around;
+}
+
 .download-windows-button {
     text-decoration: none;
-    position: absolute;
-    top: 85%;
-    left: 35%;
-    transform: translate(-50%, -50%);
     display: flex;
     align-items: center;
     background: black;
@@ -84,10 +85,6 @@ body {
 
 .download-android-button {
     text-decoration: none;
-    position: absolute;
-    top: 85%;
-    left: 65%;
-    transform: translate(-50%, -50%);
     display: flex;
     align-items: center;
     background: black;
