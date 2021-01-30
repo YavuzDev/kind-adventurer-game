@@ -49,7 +49,7 @@ body {
 }
 
 .main-buttons {
-    width: 40%;
+    width: 80%;
     display: flex;
     flex-direction: row;
     margin-left: auto;
